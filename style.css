@@ -79,6 +79,7 @@ hr {
   border: 1px solid black;
 }
 
+/* Flexbox for Nav */
 .headNav {
   display: flex;
   flex-direction: row;
@@ -86,20 +87,24 @@ hr {
   align-items: center;
 }
 
-.portfolios {
+/* Flexbox for About Section */
+.aboutFlex {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+/* Flexbox for text in About Section */
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+/* Flexbox for Portfolio */
+.portfolioFlex {
   display: flex;
   flex-direction: row;
   margin: -30px;
   font-size: 14px;
 }
-
-.abouts {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  align-content: center;
-  justify-content: right;
-  text-align: left;
-}
-
-
